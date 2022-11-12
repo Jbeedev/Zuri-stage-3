@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import bnb1 from "../images/bnb1.png";
 import bnb2 from "../images/bnb2.png";
 import bnb3 from "../images/bnb3.png";
@@ -5,20 +7,7 @@ import bnb3 from "../images/bnb3.png";
 const Home = () => {
   return (
     <div className=" mt-14 ">
-      <nav className="mx-[100px] flex justify-between ">
-        <div>
-          <p>Metabnb</p>
-        </div>
-        <div>
-          <ul className=" flex justify-between text-xl font-normal gap-12 ">
-            <li>Home</li>
-            <li>Place to stay</li>
-            <li>NFTs</li>
-            <li>Community</li>
-          </ul>
-        </div>
-        <p className="bg-[#A02279] py-[10px] text-center px-[14px] text-white text-base font-normal rounded-2xl">Connect wallet</p>
-      </nav>
+      <Navbar />
       <div className="mx-[100px] mt-[125px] gap-[100px] flex">
         <div className=" flex-1 ">
           <h1 className=" text-[56px] tracking-tighter font-bold mb-12 ">
@@ -292,48 +281,7 @@ const Home = () => {
             </div>
         </div>
       </div>
-      <div className="bg-black text-white">
-        <div className="flex justify-between mx-[100px] pt-[63px] pb-[37px]">
-            <div>
-                <h1 className=" mb-[100px] ">Logo</h1>
-                <div className="flex gap-3 mb-[55px]">
-                    <p>F</p>
-                    <p>I</p>
-                    <p>T</p>
-                </div>
-                <p>C 2022 Metabnb</p>
-            </div>
-            
-                <div>
-                    <h1 className="text-lg font-bold mb-6">Community</h1>
-                    <ul className="text-sm font-normal flex flex-col gap-4">
-                        <li>NFT</li>
-                        <li>Tokens</li>
-                        <li>Landlords</li>
-                        <li>Discord</li>
-                    </ul>
-                </div>
-                <div>
-                    <h1 className="text-lg font-bold mb-6">Places</h1>
-                    <ul className="text-sm font-normal flex flex-col gap-4">
-                        <li>Castles</li>
-                        <li>Farms</li>
-                        <li>Beach</li>
-                        <li>Learn more</li>
-                    </ul>
-                </div>
-                <div>
-                    <h1 className="text-lg font-bold mb-6">About us</h1>
-                    <ul className="text-sm font-normal flex flex-col gap-4">
-                        <li>Road map</li>
-                        <li>Creators</li>
-                        <li>Career</li>
-                        <li>Contact us</li>
-                    </ul>
-                </div>
-            
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

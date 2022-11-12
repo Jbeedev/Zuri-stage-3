@@ -1,30 +1,30 @@
-import bnb1 from "../images/bnb1.png";
-import bnb2 from "../images/bnb2.png";
-import bnb3 from "../images/bnb3.png";
-import Logo from "../images/Logobnb.png"
-import FooterLogo from "../images/footerLogo.png"
+import Frame1 from "../images/Frame1.png"
+import Frame3 from "../images/Frame3.png"
+import Frame2 from "../images/Frame2.png"
+import Frame4 from "../images/Frame4.png"
+import Frame5 from "../images/Frame5.png"
+import Frame6 from "../images/Frame6.png"
+import Frame7 from "../images/Frame7.png"
+import Frame8 from "../images/Frame8.png"
+import Frame9 from "../images/Frame9.png"
+import Frame10 from "../images/Frame10.png"
+import Frame11 from "../images/Frame11.png"
+import Frame12 from "../images/Frame12.png"
+import Frame13 from "../images/Frame13.png"
+import Frame14 from "../images/Frame14.png"
+import Frame15 from "../images/Frame15.png"
+
+import Ratingicon from "../images/RatingIcon.png"
+import Setting from "../images/setting.png"
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 const PlaceToStay = () => {
   return (
     <div className=" mt-14 ">
-      <nav className="mx-[100px] flex justify-between ">
-        <div>
-          <img src={Logo} alt="company logo" />
-        </div>
-        <div>
-          <ul className=" flex justify-between text-xl font-normal gap-12 ">
-            <li>Home</li>
-            <li>Place to stay</li>
-            <li>NFTs</li>
-            <li>Community</li>
-          </ul>
-        </div>
-        <p className="bg-[#A02279] py-[10px] text-center px-[14px] text-white text-base font-normal rounded-2xl">
-          Connect wallet
-        </p>
-      </nav>
-      <div className="mx-[100px] mt-[125px] mb-[90px]">
-        <ul className="flex justify-between text-xl font-normal">
+      <Navbar />
+      <div className="mx-[100px] mt-[125px] mb-[90px] flex justify-between">
+        <ul className=" p-0 m-0 flex gap-12 text-xl font-normal">
           <li>Restaurant</li>
           <li>Cottage</li>
           <li>Castle</li>
@@ -33,15 +33,19 @@ const PlaceToStay = () => {
           <li>Carbins</li>
           <li>Off-grid</li>
           <li>Farm</li>
-          <li className="py-3 px-2 border rounded-lg -mb-4">Location</li>
         </ul>
+        <div className="border flex justify-center gap-10 rounded-lg p-2">
+          <p className="  rounded-lg ">Location</p>
+          <img src={Setting} alt="" />
+        </div>
+        
       </div>
 
       <div className="mx-[100px]">
         <div className=" flex gap-6 text-xs mb-6 ">
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame1}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -54,18 +58,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame2}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -78,18 +82,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame3}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -102,18 +106,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame11}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -126,110 +130,12 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className=" flex gap-6 text-xs mb-6 ">
-          <div className="border px-4 pt-4 rounded-2xl ">
-            <img
-              src={bnb3}
-              alt=""
-              className="w-[260px] h-[265px] rounded-2xl "
-            />
-            <div className="mt-4">
-              <div className="flex justify-between mb-[10px]">
-                <p>Desert king</p>
-                <p className="font-bold">1MBT per night</p>
-              </div>
-              <div className="flex justify-between mb-[10px]">
-                <p>2345km away</p>
-                <p>available for 2weeks stay</p>
-              </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-              </div>
-            </div>
-          </div>
-          <div className="border px-4 pt-4 rounded-2xl ">
-            <img
-              src={bnb3}
-              alt=""
-              className="w-[260px] h-[265px] rounded-2xl "
-            />
-            <div className="mt-4">
-              <div className="flex justify-between mb-[10px]">
-                <p>Desert king</p>
-                <p className="font-bold">1MBT per night</p>
-              </div>
-              <div className="flex justify-between mb-[10px]">
-                <p>2345km away</p>
-                <p>available for 2weeks stay</p>
-              </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-              </div>
-            </div>
-          </div>
-          <div className="border px-4 pt-4 rounded-2xl ">
-            <img
-              src={bnb3}
-              alt=""
-              className="w-[260px] h-[265px] rounded-2xl "
-            />
-            <div className="mt-4">
-              <div className="flex justify-between mb-[10px]">
-                <p>Desert king</p>
-                <p className="font-bold">1MBT per night</p>
-              </div>
-              <div className="flex justify-between mb-[10px]">
-                <p>2345km away</p>
-                <p>available for 2weeks stay</p>
-              </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-              </div>
-            </div>
-          </div>
-          <div className="border px-4 pt-4 rounded-2xl ">
-            <img
-              src={bnb3}
-              alt=""
-              className="w-[260px] h-[265px] rounded-2xl "
-            />
-            <div className="mt-4">
-              <div className="flex justify-between mb-[10px]">
-                <p>Desert king</p>
-                <p className="font-bold">1MBT per night</p>
-              </div>
-              <div className="flex justify-between mb-[10px]">
-                <p>2345km away</p>
-                <p>available for 2weeks stay</p>
-              </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -237,7 +143,7 @@ const PlaceToStay = () => {
         <div className=" flex gap-6 text-xs mb-6 ">
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb2}
+              src={Frame4}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -250,18 +156,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb2}
+              src={Frame5}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -274,18 +180,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb2}
+              src={Frame6}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -298,18 +204,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb2}
+              src={Frame7}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -322,12 +228,110 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" flex gap-6 text-xs mb-6 ">
+          <div className="border px-4 pt-4 rounded-2xl ">
+            <img
+              src={Frame8}
+              alt=""
+              className="w-[260px] h-[265px] rounded-2xl "
+            />
+            <div className="mt-4">
+              <div className="flex justify-between mb-[10px]">
+                <p>Desert king</p>
+                <p className="font-bold">1MBT per night</p>
+              </div>
+              <div className="flex justify-between mb-[10px]">
+                <p>2345km away</p>
+                <p>available for 2weeks stay</p>
+              </div>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+              </div>
+            </div>
+          </div>
+          <div className="border px-4 pt-4 rounded-2xl ">
+            <img
+              src={Frame9}
+              alt=""
+              className="w-[260px] h-[265px] rounded-2xl "
+            />
+            <div className="mt-4">
+              <div className="flex justify-between mb-[10px]">
+                <p>Desert king</p>
+                <p className="font-bold">1MBT per night</p>
+              </div>
+              <div className="flex justify-between mb-[10px]">
+                <p>2345km away</p>
+                <p>available for 2weeks stay</p>
+              </div>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+              </div>
+            </div>
+          </div>
+          <div className="border px-4 pt-4 rounded-2xl ">
+            <img
+              src={Frame10}
+              alt=""
+              className="w-[260px] h-[265px] rounded-2xl "
+            />
+            <div className="mt-4">
+              <div className="flex justify-between mb-[10px]">
+                <p>Desert king</p>
+                <p className="font-bold">1MBT per night</p>
+              </div>
+              <div className="flex justify-between mb-[10px]">
+                <p>2345km away</p>
+                <p>available for 2weeks stay</p>
+              </div>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+              </div>
+            </div>
+          </div>
+          <div className="border px-4 pt-4 rounded-2xl ">
+            <img
+              src={Frame11}
+              alt=""
+              className="w-[260px] h-[265px] rounded-2xl "
+            />
+            <div className="mt-4">
+              <div className="flex justify-between mb-[10px]">
+                <p>Desert king</p>
+                <p className="font-bold">1MBT per night</p>
+              </div>
+              <div className="flex justify-between mb-[10px]">
+                <p>2345km away</p>
+                <p>available for 2weeks stay</p>
+              </div>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -335,7 +339,7 @@ const PlaceToStay = () => {
         <div className=" flex gap-6 text-xs ">
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame12}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -348,18 +352,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame13}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -372,18 +376,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame14}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -396,18 +400,18 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame15}
               alt=""
               className="w-[260px] h-[265px] rounded-2xl "
             />
@@ -420,59 +424,19 @@ const PlaceToStay = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-black text-white mt-[92px]">
-        <div className="flex justify-between mx-[100px] pt-[63px] pb-[37px]">
-          <div>
-            <img src={FooterLogo} alt="" />
-            <div className="flex gap-3 mb-[55px]">
-              <p>F</p>
-              <p>I</p>
-              <p>T</p>
-            </div>
-            <p>C 2022 Metabnb</p>
-          </div>
-
-          <div>
-            <h1 className="text-lg font-bold mb-6">Community</h1>
-            <ul className="text-sm font-normal flex flex-col gap-4">
-              <li>NFT</li>
-              <li>Tokens</li>
-              <li>Landlords</li>
-              <li>Discord</li>
-            </ul>
-          </div>
-          <div>
-            <h1 className="text-lg font-bold mb-6">Places</h1>
-            <ul className="text-sm font-normal flex flex-col gap-4">
-              <li>Castles</li>
-              <li>Farms</li>
-              <li>Beach</li>
-              <li>Learn more</li>
-            </ul>
-          </div>
-          <div>
-            <h1 className="text-lg font-bold mb-6">About us</h1>
-            <ul className="text-sm font-normal flex flex-col gap-4">
-              <li>Road map</li>
-              <li>Creators</li>
-              <li>Career</li>
-              <li>Contact us</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

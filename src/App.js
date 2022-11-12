@@ -1,9 +1,11 @@
-import './App.css';
+// import Home from "./pages/Home";
+import PlaceToStay from "./pages/PlaceToStay";
 
 function App() {
   return (
-    <div className="App">
-      <p className='underline'>Hello world</p>
+    <div className="">
+      {/* <Home /> */}
+      <PlaceToStay />
     </div>
   );
 }

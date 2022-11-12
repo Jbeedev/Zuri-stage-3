@@ -41,7 +41,7 @@ const PlaceToStay = () => {
         
       </div>
 
-      <div className="mx-[100px]">
+      <div className="mx-[100px] mb-[92px]">
         <div className=" flex gap-6 text-xs mb-6 ">
           <div className="border px-4 pt-4 rounded-2xl ">
             <img
@@ -437,6 +437,7 @@ const PlaceToStay = () => {
       </div>
 
       <Footer />
+      <div></div>
     </div>
   );
 };

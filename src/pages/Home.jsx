@@ -3,6 +3,12 @@ import Navbar from "../components/Navbar";
 import bnb1 from "../images/bnb1.png";
 import bnb2 from "../images/bnb2.png";
 import bnb3 from "../images/bnb3.png";
+import Divide1 from "../images/divide1.png"
+import Divide2 from "../images/divide2.png"
+import Divide3 from "../images/divide3.png"
+import MetaImg from "../images/metaImage.png"
+import Ratingicon from "../images/RatingIcon.png"
+
 
 const Home = () => {
   return (
@@ -60,9 +66,9 @@ const Home = () => {
         </div>
       </div>
       <div className=" h-[70px] mt-[67px] flex justify-around items-center bg-[#A02279] ">
-        <p>dummy</p>
-        <p>dummy</p>
-        <p>dummy</p>
+        <p><img src={Divide1} alt="" /></p>
+        <p><img src={Divide2} alt="" /></p>
+        <p><img src={Divide3} alt="" /></p>
       </div>
       <div className="mx-[100px]">
         <h1 className="text-center text-5xl font-bold mt-14 mb-11 ">
@@ -84,12 +90,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -108,12 +114,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -132,12 +138,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -156,12 +162,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -182,12 +188,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -206,12 +212,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -230,12 +236,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -254,12 +260,12 @@ const Home = () => {
                 <p>2345km away</p>
                 <p>available for 2weeks stay</p>
               </div>
-              <div className="flex gap-2 text-2xl text-[#A02279] font-extrabold">
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
-                <p>*</p>
+              <div className="flex gap-2 text-2xl text-[#A02279] mb-4 font-extrabold">
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
+                <p><img src={Ratingicon} alt="" /></p>
               </div>
             </div>
           </div>
@@ -267,7 +273,7 @@ const Home = () => {
       </div>
       <div className="bg-[#A02279] mt-[35px] py-[100px] ">
         <div className="mx-[100px] flex justify-between  ">
-            <div className="basis-4/12">
+            <div className="basis-4/12 mt-[86px] ">
               <h1 className="font-bold text-5xl text-white mb-[35px] ">Metabnb NFTs</h1>
               <p className="text-lg text-white mb-[57px]">
                 Discover our NFT gift cards collection. Loyal customers gets amazing
@@ -277,7 +283,7 @@ const Home = () => {
               <button className="text-[#A02279] bg-white px-[10px] py-[10px] text-base rounded-lg ">Learn more</button>
             </div>
             <div className="basis-8/12 flex justify-center">
-                <img src={bnb3} alt="" className="w-[260px] h-[265px] " />
+                <img src={MetaImg} alt="" className="w-[650px] h-[500px] " />
             </div>
         </div>
       </div>

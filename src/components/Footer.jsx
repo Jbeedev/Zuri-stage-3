@@ -5,7 +5,7 @@ import Twitter from "../images/IconTwitter.png"
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white mt-[92px]">
+    <div className="bg-black text-white">
       <div className="flex justify-between mx-[100px] pt-[63px] pb-[37px]">
         <div>
           <img src={FooterLogo} alt="" className="mb-[96px]" />

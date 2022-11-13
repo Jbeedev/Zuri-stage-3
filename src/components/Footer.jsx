@@ -6,8 +6,8 @@ import Twitter from "../images/IconTwitter.png"
 const Footer = () => {
   return (
     <div className="bg-black text-white">
-      <div className="flex justify-between mx-[100px] pt-[63px] pb-[37px]">
-        <div>
+      <div className="flex flex-col md:flex-row justify-between mx-5 md:mx-[100px] pt-[63px] pb-[37px]">
+        <div className="mb-6 md:mb-0">
           <img src={FooterLogo} alt="" className="mb-[96px]" />
           <div className="flex gap-3 mb-[55px]">
             <p>
@@ -23,7 +23,7 @@ const Footer = () => {
           <p>C 2022 Metabnb</p>
         </div>
 
-        <div>
+        <div className="mb-6 md:mb-0">
           <h1 className="text-lg font-bold mb-6">Community</h1>
           <ul className="text-sm font-normal flex flex-col gap-4">
             <li>NFT</li>

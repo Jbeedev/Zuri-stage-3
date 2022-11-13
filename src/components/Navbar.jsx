@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav className="mx-[100px] flex justify-between ">
-        <div>
-          <Link to="/"><img src={Logo} alt="company logo" /></Link>
+      <nav className=" mx-5 lg:mx-[100px] md:flex justify-between ">
+        <div className="mb-6 lg:mb-0">
+          <Link to="/"><img src={Logo} alt="company logo " /></Link>
         </div>
-        <div>
-          <ul className=" flex justify-between text-xl font-normal gap-12 ">
+        <div className="mb-4 md:mb-0">
+          <ul className=" flex justify-between text-xs font-semibold md:text-xl md:font-normal gap-12 ">
             <Link to="/home">
                 <li>Home</li>
             </Link>

@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import PlaceToStay from "./pages/PlaceToStay";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Wallet from "./components/Wallet";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/accomondation" element={<PlaceToStay />} />
+          {/* <Route path="/wallet" element={<Wallet />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

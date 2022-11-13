@@ -24,9 +24,11 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <p className="bg-[#A02279] py-[10px] text-center px-[14px] text-white text-base font-normal rounded-2xl">
-          Connect wallet
-        </p>
+        <Link to="/accomondation">
+            <p className="bg-[#A02279] py-[10px] text-center px-[14px] text-white text-base font-normal rounded-2xl">
+              Connect wallet
+            </p>
+        </Link>
       </nav>
     </div>
   );

@@ -1,8 +1,15 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import bnb1 from "../images/bnb1.png";
-import bnb2 from "../images/bnb2.png";
-import bnb3 from "../images/bnb3.png";
+import Frame1 from "../images/Frame1.png";
+import Frame3 from "../images/Frame3.png";
+import Frame2 from "../images/Frame2.png";
+import Frame4 from "../images/Frame4.png";
+import Frame5 from "../images/Frame5.png";
+import Frame6 from "../images/Frame6.png";
+import Frame7 from "../images/Frame7.png";
+import Frame8 from "../images/Frame8.png";
+import Frame9 from "../images/Frame9.png";
+import Frame10 from "../images/Frame10.png";
 import Divide1 from "../images/divide1.png"
 import Divide2 from "../images/divide2.png"
 import Divide3 from "../images/divide3.png"
@@ -41,24 +48,24 @@ const Home = () => {
         <div className="flex gap-2 flex-1 ">
           <div className="mt-[92px]">
             <img
-              src={bnb1}
+              src={Frame1}
               alt=""
               className=" mb-2 w-[234px] h-[176px] rounded-2xl "
             />
             <img
-              src={bnb2}
+              src={Frame2}
               alt=""
               className=" w-[234px] h-[176px] rounded-2xl "
             />
           </div>
           <div>
             <img
-              src={bnb3}
+              src={Frame3}
               alt=""
               className=" mb-2 w-[234px] h-[176px] rounded-2xl "
             />
             <img
-              src={bnb1}
+              src={Frame4}
               alt=""
               className=" w-[234px] h-[176px] rounded-2xl "
             />
@@ -78,7 +85,7 @@ const Home = () => {
         <div className=" flex gap-6 text-xs flex-wrap mb-6">
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame5}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -102,7 +109,7 @@ const Home = () => {
           </div>
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame6}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -126,7 +133,7 @@ const Home = () => {
           </div>
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame3}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -150,7 +157,7 @@ const Home = () => {
           </div>
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame2}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -179,7 +186,7 @@ const Home = () => {
         <div className=" flex gap-6 text-xs flex-wrap">
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame7}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -203,7 +210,7 @@ const Home = () => {
           </div>
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame8}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -227,7 +234,7 @@ const Home = () => {
           </div>
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame9}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -251,7 +258,7 @@ const Home = () => {
           </div>
           <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
             <img
-              src={bnb1}
+              src={Frame10}
               alt=""
               className=" rounded-2xl h-[265px]"
             />
@@ -281,7 +288,7 @@ const Home = () => {
       <div className="bg-[#A02279] mt-[35px] py-[100px] ">
         <div className="mx-5 md:mx-[100px] gap-6 md:gap-0 flex justify-between flex-wrap ">
             <div className="basis-4/12 mt-[86px] flex-grow">
-              <h1 className="font-bold text-5xl text-white mb-[35px] ">Metabnb NFTs</h1>
+              <h1 className="font-bold text-5xl text-white mb-[35px] ">MetaFrame NFTs</h1>
               <p className="text-lg text-white mb-[57px]">
                 Discover our NFT gift cards collection. Loyal customers gets amazing
                 gift cards which are traded as NFTs. These NFTs gives our cutomer

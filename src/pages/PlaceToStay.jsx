@@ -38,12 +38,12 @@ const PlaceToStay = () => {
     <div className=" mt-14 ">
       {/* <Navbar > */}
       <div>
-        <nav className=" mx-5 lg:mx-[100px]  md:flex justify-between ">
-          <div className="mb-6 lg:mb-0 flex justify-between">
-            <Link to="/">
-              <img src={Logo} alt="company logo " />
-            </Link>
-            <div className=" md:hidden ">
+      <nav className=" mx-5 lg:mx-[100px] md:flex  justify-between ">
+        <div className="mb-6 lg:mb-0 flex justify-between">
+          <Link to="/">
+            <img src={Logo} alt="company logo " />
+          </Link>
+          <div className=" md:hidden ">
             <Hamburger
               color="black"
               size="40"
@@ -52,30 +52,47 @@ const PlaceToStay = () => {
               toggle={setIsOpen}
             />
           </div>
-          </div>
-          {isOpen && <div className="mb-4 md:mb-0">
-            <ul className=" flex justify-between text-xs font-semibold md:text-xl md:font-normal gap-12 ">
-              <Link to="/home">
-                <li>Home</li>
-              </Link>
-              <Link to="/accomondation">
-                <li>Place to stay</li>
-              </Link>
-              <Link>
-                <li>NFTs</li>
-              </Link>
-              <Link>
-                <li>Community</li>
-              </Link>
-            </ul>
-          </div>}
-          <p
-            className="cursor-pointer bg-[#A02279] py-[10px] text-center px-[14px] text-white text-base font-normal rounded-2xl"
-            onClick={() => setWalletClicked(!walletClicked)}
-          >
+        </div>
+
+      {isOpen &&  <div className="mb-4 md:mb-0  md:hidden">
+          <ul className=" flex justify-between text-xs font-semibold md:text-xl md:font-normal gap-12 ">
+            <Link to="/home">
+              <li>Home</li>
+            </Link>
+            <Link to="/accomondation">
+              <li>Place to stay</li>
+            </Link>
+            <Link>
+              <li>NFTs</li>
+            </Link>
+            <Link>
+              <li>Community</li>
+            </Link>
+          </ul>
+        </div>}
+
+        <div className="mb-4 md:mb-0 hidden md:block">
+          <ul className=" flex justify-between text-xs font-semibold md:text-xl md:font-normal gap-12 ">
+            <Link to="/home">
+              <li>Home</li>
+            </Link>
+            <Link to="/accomondation">
+              <li>Place to stay</li>
+            </Link>
+            <Link>
+              <li>NFTs</li>
+            </Link>
+            <Link>
+              <li>Community</li>
+            </Link>
+          </ul>
+        </div>
+        <Link to="/accomondation" onClick={() => setWalletClicked(!walletClicked) }>
+          <p className="bg-[#A02279] py-[10px] text-center px-[14px] text-white text-base font-normal rounded-2xl">
             Connect wallet
           </p>
-        </nav>
+        </Link>
+      </nav>
       </div>
       {/* </Navbar> */}
 
@@ -230,7 +247,7 @@ const PlaceToStay = () => {
             </div>
           </div>
         </div>
-        <div className=" flex gap-6 text-xs mb-6 ">
+        <div className=" flex gap-6 text-xs mb-6 flex-wrap ">
           <div className="border px-4 pt-4 rounded-2xl w-[270px] h-[372px] ">
             <img src={Frame4} alt="" className=" rounded-2xl " />
             <div className="mt-4">
@@ -352,7 +369,7 @@ const PlaceToStay = () => {
             </div>
           </div>
         </div>
-        <div className=" flex gap-6 text-xs mb-6 ">
+        <div className=" flex gap-6 text-xs mb-6 flex-wrap ">
           <div className="border px-4 pt-4 rounded-2xl w-[270px] h-[372px] ">
             <img src={Frame8} alt="" className=" rounded-2xl " />
             <div className="mt-4">
@@ -474,7 +491,7 @@ const PlaceToStay = () => {
             </div>
           </div>
         </div>
-        <div className=" flex gap-6 text-xs ">
+        <div className=" flex gap-6 text-xs mb-6 flex-wrap ">
           <div className="border px-4 pt-4 rounded-2xl w-[270px] h-[372px] ">
             <img src={Frame12} alt="" className=" rounded-2xl " />
             <div className="mt-4">

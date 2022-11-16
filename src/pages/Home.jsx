@@ -72,7 +72,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="hidden h-[70px] mt-[67px] md:flex justify-around items-center bg-[#A02279] ">
+      <div className="w-full min-h-[70px] mt-[67px] flex justify-around gap-4 items-center bg-[#A02279] ">
         <p><img src={Divide1} alt="" /></p>
         <p><img src={Divide2} alt="" /></p>
         <p><img src={Divide3} alt="" /></p>
@@ -83,7 +83,7 @@ const Home = () => {
         </h1>
         
         <div className=" flex gap-6 text-xs flex-wrap mb-6">
-          <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">
+          <div className="w-[270px] h-[372px] border px-4 pt-4 rounded-2xl ">cl
             <img
               src={Frame5}
               alt=""

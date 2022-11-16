@@ -41,10 +41,10 @@ const Navbar = () => {
           </ul>
         </div>}
 
-        <div className="mb-4 md:mb-0 hidden md:block">
-          <ul className=" flex justify-between text-xs font-semibold md:text-xl md:font-normal gap-12 ">
+        <div className="mb-4 md:mb-0 md: hidden md:block">
+          <ul className=" flex justify-between font-semibold md:text-xl md:font-normal gap-12 ">
             <Link to="/home">
-              <li>Home</li>
+              <li className="text-lg">Home</li>
             </Link>
             <Link to="/accomondation">
               <li>Place to stay</li>
